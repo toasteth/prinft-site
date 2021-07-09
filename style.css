@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Monoton&display=swap');
+
+body {
+    margin:0;
+    padding:0;
+    background:white;
+    display: flex;
+    align-items: center;
+    height: 85vh;
+    justify-content: center;
+    align-content: center;
+    overflow: hidden;
+    font-family: 'Gochi Hand', cursive;
+    font-size: 5vmin;
+  }
+
+  css-doodle {
+    background:white;
+    /* box-shadow: 0 5vh 10vh hsla(0, 0%, 0%, 0.5); */
+    padding: 4vmin;
+    position: fixed;
+    z-index: -1;
+    user-select: none;
+  }
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    background: #fff;
+    margin: 2rem auto;
+    padding: 0.5rem;
+    box-shadow: 0 0 50px 0 rgba(0,0,0,.2);
+}
+
+.toast {
+    padding: 20px;
+    display:block;
+    width: 14vmin;
+    /* height: 3vmin; */
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/css-doodle@0.19.1/css-doodle.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <css-doodle>
+      :doodle {
+          @grid: 5 /75vmin;
+          grid-gap: 1vmax;
+      }
+
+      background: #26c6da;
+      transform: scale(@r(.1, .9)) 
+      translate3d(@r(50px), @r(100px), 0);
+      background: hsla(@r(360), 80%, @r(90%), @r(.8));
+      border-radius(@r(10px));
+    </css-doodle>
+
+    <div class="container">
+        <h1>prinft</h1>
+    </div>
+
+    <a href="/"><img src="ToastLogo.svg" alt="" class="toast"></a>
+</body>
+</html>
